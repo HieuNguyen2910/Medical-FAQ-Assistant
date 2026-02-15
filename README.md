@@ -1,5 +1,5 @@
-# Invoice Extraction System
-Automatically extracts key information such as company name, date, address, and total amount from invoice images using OCR and Graph Neural Networks (GNN).
+# Medical FAQ Assistant
+Automatically generates grounded medical answers by integrating a local Qwen3-1.7B model with a Retrieval-Augmented Generation (RAG) pipeline using LangChain.
 
 
 ## Table of Contents
@@ -14,14 +14,14 @@ Automatically extracts key information such as company name, date, address, and 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/HieuNguyen2910/Invoice_Extraction
-cd Invoice_Extraction
+git clone https://github.com/HieuNguyen2910/Medical-FAQ-Assistant
+cd Medical-FAQ-Assistant
 ```
 
 2. Create and activate Conda environment
 
 ```bash
-conda create -n your_env python=3.8 -y
+conda create -n your_env python=3.10 -y
 conda activate your_env
 ```
 
@@ -33,8 +33,12 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python run.py
+python app.py
 ```
+
+Access the Web Application: 
+open your browser and go to 
+*(localhost:8000)*
 
 ## Demo
 
